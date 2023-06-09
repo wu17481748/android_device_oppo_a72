@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from oppo_a72 device
-$(call inherit-product, device/oppo_a72/device.mk)
+$(call inherit-product, device/alps/oppo_a72/device.mk)
 
 PRODUCT_DEVICE := oppo_a72
 PRODUCT_NAME := omni_oppo_a72

@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/oppo_a72
+LOCAL_PATH := device/alps/oppo_a72

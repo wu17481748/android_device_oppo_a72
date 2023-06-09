@@ -6,7 +6,7 @@
 
     "repository": "wu17481748/android_device_oppo_a72",
 
-    "target_path": "device/qcom/oppo_a72",
+    "target_path": "device/alps/oppo_a72",
 
     "revision":"v10"
 

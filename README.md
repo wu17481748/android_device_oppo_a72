@@ -1,4 +1,4 @@
-# Android device tree for alps oppo6853 (oppo_a72)
+# Android device tree for None None (oppo_a72)
 
 ```
 #

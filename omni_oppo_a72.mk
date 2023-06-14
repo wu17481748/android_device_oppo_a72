@@ -10,20 +10,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from oppo_a72 device
-$(call inherit-product, device/alps/oppo_a72/device.mk)
+$(call inherit-product, device/oppo/oppo_a72/device.mk)
 
 PRODUCT_DEVICE := oppo_a72
 PRODUCT_NAME := omni_oppo_a72
-PRODUCT_BRAND := alps
-PRODUCT_MODEL := oppo6853
-PRODUCT_MANUFACTURER := alps
+PRODUCT_MANUFACTURER := oppo
 
-PRODUCT_GMS_CLIENTID_BASE := android-alps
+PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="vnd_oppo6853-user 11 RP1A.200720.011 1645294022283 release-keys"
+    PRIVATE_BUILD_DESC="full_oppo6853-user 10 QP1A.190711.020 2tc16spmt6853V1 release-keys"
 
 BUILD_FINGERPRINT := alps/vnd_oppo6853/oppo6853:11/RP1A.200720.011/1645294022283:user/release-keys

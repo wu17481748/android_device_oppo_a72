@@ -9,7 +9,7 @@
 set -e
 
 DEVICE=oppo_a72
-VENDOR=alps
+VENDOR=oppo
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

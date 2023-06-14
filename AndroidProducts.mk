@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_oppo_a72.mk
+    $(LOCAL_DIR)/omni_oppo_a72.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_oppo_a72-user \
-    twrp_oppo_a72-userdebug \
-    twrp_oppo_a72-eng
+    omni_oppo_a72-user \
+    omni_oppo_a72-userdebug \
+    omni_oppo_a72-eng

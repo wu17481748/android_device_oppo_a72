@@ -49,7 +49,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := oppo_a72_defconfig
-TARGET_KERNEL_SOURCE := kernel/oppo/oppo_a72
+TARGET_KERNEL_SOURCE := kernel/alps/oppo_a72
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

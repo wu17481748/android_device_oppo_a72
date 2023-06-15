@@ -16,7 +16,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/alps/oppo_a72/device.mk)
 
 PRODUCT_DEVICE := oppo_a72
-PRODUCT_NAME := omni_oppo_a72
+PRODUCT_NAME := twrp_oppo_a72
 PRODUCT_MANUFACTURER := oppo
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
